@@ -207,6 +207,8 @@ class ImageDataset:
         self.subsetname = subsetname
         self.rgb_image_dir = root_dir
         self.files = sorted(os.listdir(self.rgb_image_dir))
+        for each in self.files:
+            print(each)
 
     def __len__(self):
         return len(self.files)
