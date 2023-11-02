@@ -16,10 +16,12 @@ dataset_prepare/midas/model.pt
 */**/*.so*
 */**/*.dylib*
 */**/__pycache__
-
+*/**/.ipynb_checkpoints
 
 *.pth
 
 inputs/
 outputs_midas/
+
+
 
